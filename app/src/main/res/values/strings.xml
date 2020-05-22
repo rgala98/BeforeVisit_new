@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Before Visit</string>
+
+    <string name="search_places">Search for places</string>
+    <string name="app_name_first_word">BEFORE</string>
+    <string name="app_name_second_word"> VISIT</string>
+
+    <string name="app_description">Explore the world like never before with the help of Before Visit</string>
+
+    <string name="create_an_account">Create Account</string>
+    <string name="login">Login</string>
+    <string name="alternate_login">Or Login Using</string>
+    <string name="skip">Skip</string>
+
+    <string name="enter_email">Enter Email Address</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_mobile">Enter Mobile Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="re_enter_password">Re Enter Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
