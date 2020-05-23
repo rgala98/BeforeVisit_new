@@ -32,13 +32,15 @@
 
 <!--    </ScrollView>-->
 
-    <include layout="@layout/snippet_top_bar_main"
-        android:id="@+id/top_bar"/>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="72dp"
         android:id="@+id/fragment_container"/>
+
+    <include layout="@layout/snippet_top_bar_main"
+        android:id="@+id/top_bar"/>
 
 
 </RelativeLayout>

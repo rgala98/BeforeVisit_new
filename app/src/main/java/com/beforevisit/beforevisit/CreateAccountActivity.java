@@ -29,12 +29,15 @@ public class CreateAccountActivity extends AppCompatActivity {
 
     TextView tv_error_email,tv_error_mobile,tv_error_password;
 
+    public static CreateAccountActivity instanceOfCreateAccAct;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         DefaultTextConfig defaultTextConfig = new DefaultTextConfig();
         defaultTextConfig.adjustFontScale(getResources().getConfiguration(), CreateAccountActivity.this);
         setContentView(R.layout.activity_create_account);
+        instanceOfCreateAccAct = this;
 
         init();
         img_back.setOnClickListener(new View.OnClickListener() {
